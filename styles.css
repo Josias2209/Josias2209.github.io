@@ -1,0 +1,86 @@
+/* Configuración básica */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #F9F8F6;
+    color: #493924;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.menu-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #FFFFFF;
+    padding: 2rem;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+/* Encabezado */
+.menu-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.menu-header h1 {
+    font-size: 2.5rem;
+    color: #6C361B;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.menu-header p {
+    font-size: 1.2rem;
+    color: #7B5642;
+}
+
+/* Categorías del menú */
+.menu-category {
+    margin-bottom: 2rem;
+}
+
+.menu-category h2 {
+    font-size: 1.8rem;
+    color: #AF7B5B;
+    border-bottom: 2px solid #B2A785;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Elementos del menú */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #DFCE9B;
+}
+
+.menu-item h3 {
+    font-size: 1.2rem;
+    color: #6C361B;
+    margin: 0;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #493924;
+    margin-top: 0.2rem;
+}
+
+.menu-item span {
+    font-size: 1.2rem;
+    color: #AF7B5B;
+    font-weight: bold;
+}
+
+/* Footer */
+.menu-footer {
+    text-align: center;
+    font-size: 1rem;
+    color: #7B5642;
+    margin-top: 2rem;
+}
